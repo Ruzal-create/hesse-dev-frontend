@@ -51,12 +51,9 @@ const SignUp = () => {
 		}
 	});
 
-	function clicking(){
-		console.log('clickex')
-	}
 	//style={{backgroundImage: `url(${image})`}}
 	return(
-		<div className="flex items-center justify-center h-screen flex-col bg-orange-300">
+		<div className="flex items-center justify-center h-screen flex-col h-screen bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 animate-gradient-x">
 			<div><img className="w-44" src={image2}/></div>
 			<div className="rounded-3xl bg-white shadow-3xl h-auto w-10/12 md:h-auto md:w-5/12 opacity-95">
 				<div className="flex items-center justify-center h-full flex-col pt-4 pb-4 gap-4">
